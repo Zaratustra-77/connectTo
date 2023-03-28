@@ -17,7 +17,6 @@ def create_mongo_connection(user_name, encoded_password, db_name):
     db = client[db_name]
     return db
 
-
 # Function to test the MongoDB connection
 def test_connection(db):
     try:
